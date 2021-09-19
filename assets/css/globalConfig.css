@@ -1,0 +1,39 @@
+:root {
+  /* COLORS */
+  --primary-orange-web: #fca311;
+  --secondary-blue-oxford: #14213d;
+  --tertiary-red-carmine: #96031A;
+  --blood-red: #6B0504;
+  --light-gray: #ebebeb;
+
+  /* PADDING */
+  --gap: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.5rem;
+}
