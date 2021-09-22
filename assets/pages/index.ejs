@@ -12,7 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
     rel="stylesheet">
 
-    <script src="/dist/bundle.js"></script>
+  <script src="/dist/bundle.js"></script>
 
   <title>welldOne developer</title>
 </head>
@@ -21,21 +21,27 @@
 
   <header>
 
-    <aside class="menu">
-      <div class="main_content menu_content">
+    <aside class="nav">
+      <div class="main_wrapper nav_content">
 
-        <h1>
-          LOGO
-        </h1>
+        <!-- <div class="nav_logo">
+          <h1>welldOne</h1>
+          <p>developer</p>
+        </div> -->
 
         <nav>
           <ul>
-            <li><a href="#home">início</a></li>
-            <li><a href="#projects">projetos</a></li>
-            <li><a href="#contact_us">fale conosco</a></li>
+            <a href="">
+              <li>início</li>
+            </a>
+            <a href="#projects">
+              <li>projetos</li>
+            </a>
+            <a href="#contact_us">
+              <li>contato</li>
+            </a>
           </ul>
         </nav>
-
       </div>
     </aside>
 
@@ -45,13 +51,19 @@
 
   <section id="home" class="section intro">
 
-    <div class="main_content intro_content">
+    <div class="main_wrapper intro_content">
 
       <div class="intro_text_content">
         <h2>SEJA BEM-VINDX</h2>
+        <p> Meu nome é <strong>Weldo Carvalho</strong>. Sou <strong>Desenvolvedor Web</strong> e atualmente desenvolvo
+          aplicações utilizando NODE, REACT,
+          JAVASCRIPT, SQL, GIT, API REST e metodologia ÁGIL, além de outras tecnologias e ferramentas.</p>
+        <br>
+        <p>Logo abaixo estão alguns projetos pessoais, construídos ao longo do ano de 2021.</p>
+        <br>
         <p>
-          Pariatur, eum! Doloribus corrupti quisquam porro libero? Dignissimos laudantium quia modi quos officia sed
-          unde pariatur voluptas magni id ipsa, assumenda soluta rerum suscipit illo placeat neque dolorum? Rerum, sit.
+          O processo de DEPLOYment de todos eles foi feito por meio da GOOGLE CLOUD PLATFORM, com uso do NGINX para
+          proxy-reverso e DOCKER para levantamento de alguns conteiners.
         </p>
 
       </div>
@@ -66,48 +78,88 @@
 
   <section id="projects" class="section third_bg">
 
-    <div class="main_content grid_content">
+    <div class="main_wrapper grid_content">
       <h2>PROJETOS</h2>
 
       <div class="grid">
         <article>
-          <h3>SABER DIGITAL</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis velit veritatis dignissimos? Laborum
-            impedit consequuntur dolorem atque itaque rerum obcaecati quo vel deserunt minima, vero voluptatum
-            reiciendis quasi culpa? Obcaecati?
-            Incidunt quisquam, architecto vero possimus perferendis quia fugit voluptate optio beatae voluptas autem
-            veritatis voluptatem dolores dolorum facilis in vitae! Architecto voluptas exercitationem soluta dignissimos
-            quia magni ipsam aspernatur impedit.</p>
+          <a href="https://saberdigital.weldocarvalho.com" target="_blank">
+            <h3>SABER DIGITAL</h3>
+          </a>
+          <a href="https://github.com/weldocarvalho/saberdigital" target="_blank">
+            <p>código fonte: github.com/weldocarvalho/saberdigital</p>
+          </a>
+          <br>
+          <a href="https://saberdigital.weldocarvalho.com" target="_blank">
+            <p>saberdigital.weldocarvalho.com</p>
+          </a>
+          <br>
+          <p>
+            <a href="https://saberdigital.weldocarvalho.com" target="_blank">
+              SABER DIGITAL
+            </a>
+            foi, sem dúvida, uma das maiores conquistas pessoais. O projeto foi apresentado como trabalho
+            final no curso de DESENVOLVIMENTO WEB FULL STACK, ministrado pela DIGITAL HOUSE BRASIL. Foi a partir dele
+            que consegui enxergar, de maneira mais panorâmica, a visão de uma aplicação web.
+          </p>
+          <br>
+          <p>Tecnologias utilizadas: NodeJS, Express, MySQL, Sequelize, Bootstrap, EJS, Multer, ESLint e Webpack</p>
+          <br>
+          <p>Equipe:
+            <a href="https://github.com/weldocarvalho" target="_blank">Weldo Carvalho,</a>
+            <a href="https://github.com/defebach" target="_blank">André Felipe,</a>
+            <a href="https://github.com/claudionono14" target="_blank">Cláudio Carvalho,</a>
+            <a href="https://github.com/thalesgomes" target="_blank">Thales Gomes</a>
+          </p>
         </article>
 
         <article>
           <h3>POMODORO</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis velit veritatis dignissimos? Laborum
-            impedit consequuntur dolorem atque itaque rerum obcaecati quo vel deserunt minima, vero voluptatum
-            reiciendis quasi culpa? Obcaecati?
-            Incidunt quisquam, architecto vero possimus perferendis quia fugit voluptate optio beatae voluptas autem
-            veritatis voluptatem dolores dolorum facilis in vitae! Architecto voluptas exercitationem soluta dignissimos
-            quia magni ipsam aspernatur impedit.</p>
+          <a href="https://github.com/weldocarvalho/pomodoro_technique-typescript-react" target="_blank">
+            <p>código fonte: github.com/weldocarvalho/pomodoro_technique-typescript-react</p>
+          </a>
+          <br>
+          <p>A técnica pomodoro é um método de gerenciamento de tempo. Na prática, é um timer programado para emitir um
+            alerta a cada 25min.</p>
+          <br>
+          <p>A ideia por trás da técnica é utilizar esse intervalo de tempo para focar na produção
+            de uma tarefa específica, realizando uma pausa de 5min a cada término.</p>
+          <br>
+          <p>Tecnologias utilizadas: Typescript, React</p>
         </article>
 
         <article>
           <h3>API REST</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis velit veritatis dignissimos? Laborum
-            impedit consequuntur dolorem atque itaque rerum obcaecati quo vel deserunt minima, vero voluptatum
-            reiciendis quasi culpa? Obcaecati?
-            Incidunt quisquam, architecto vero possimus perferendis quia fugit voluptate optio beatae voluptas autem
-            veritatis voluptatem dolores dolorum facilis in vitae! Architecto voluptas exercitationem soluta dignissimos
-            quia magni ipsam aspernatur impedit.</p>
+          <a href="https://github.com/weldocarvalho/api-rest_node-express-sequelize" target="_blank">
+            <p>código fonte: github.com/weldocarvalho/api-rest_node-express-sequelize</p>
+          </a>
+          <br>
+          <p>A construção de uma API utilizando o estilo arquitetural REST com certeza é um dos projetos que não poderia
+            faltar nesse portfólio. O estilo trouxe muito mais consistência quando o assunto é o consumo de serviços
+            web.</p>
+          <br>
+          <p>Tecnologias utilizadas: NodeJS, Express, MySQL, Sequelize, Sucrase</p>
         </article>
 
         <article>
-          <h3>CONSUMINDO API</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis velit veritatis dignissimos? Laborum
-            impedit consequuntur dolorem atque itaque rerum obcaecati quo vel deserunt minima, vero voluptatum
-            reiciendis quasi culpa? Obcaecati?
-            Incidunt quisquam, architecto vero possimus perferendis quia fugit voluptate optio beatae voluptas autem
-            veritatis voluptatem dolores dolorum facilis in vitae! Architecto voluptas exercitationem soluta dignissimos
-            quia magni ipsam aspernatur impedit.</p>
+          <h3>CONSUMINDO API_wip</h3>
+          <p>...work in progress...</p>
+          <br>
+          <p>Após a construção da API REST, é chegado o momento de consumi-la utilizando a biblioteca REACT, com suporte
+            do REDUX</p>
+          <br>
+          <p>Tecnologias utilizadas: React e Redux</p>
+        </article>
+
+        <article>
+          <h3>LANDING PAGE</h3>
+          <a href="https://github.com/weldocarvalho/welldOne_dev_landing_page" target="_blank">
+            <p>código fonte: github.com/weldocarvalho/welldOne_dev_landing_page</p>
+          </a>
+          <br>
+          <p>E o que seria desse portfólio sem a sua devida landing page, num é vero? </p>
+          <br>
+          <p>Tecnologias utilizadas: HTML e CSS</p>
         </article>
       </div>
 
@@ -124,9 +176,13 @@
       </div>
 
       <div>
-        <p>dúvidas ou sugestões? Entre em contato comigo</p>
-        <p>linkedin: linkedin.com/in/weldocarvalho</p>
-        <p>gitHub: github.com/weldocarvalho</p>
+        <p>Contato</p>
+        <a href="https://www.linkedin.com/in/weldocarvalho/" target="_blank">
+          <p>linkedin: linkedin.com/in/weldocarvalho</p>
+        </a>
+        <a href="https://github.com/weldocarvalho" target="_blank">
+          <p>github: github.com/weldocarvalho</p>
+        </a>
 
       </div>
 
