@@ -1,10 +1,6 @@
 :root {
   /* COLORS */
-  --primary-orange-web: #fca311;
-  --secondary-blue-oxford: #14213d;
-  --tertiary-red-carmine: #96031A;
-  --blood-red: #6B0504;
-  --light-gray: #ebebeb;
+  --theme: #4f6d7a;
 
   /* PADDING */
   --gap: 3rem;
@@ -22,7 +18,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   line-height: 1.5;
 }
 
@@ -32,8 +28,9 @@ ul {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }

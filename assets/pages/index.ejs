@@ -21,33 +21,27 @@
 
   <header>
 
-    <aside class="nav">
-      <div class="main_wrapper nav_content">
+    <div class="main_wrapper nav_content">
 
-        <!-- <div class="nav_logo">
-          <h1>welldOne</h1>
-          <p>developer</p>
-        </div> -->
-
-        <nav>
-          <ul>
-            <a href="">
-              <li>início</li>
-            </a>
-            <a href="#projects">
-              <li>projetos</li>
-            </a>
-            <a href="#contact_us">
-              <li>contato</li>
-            </a>
-          </ul>
-        </nav>
+      <div class="nav_logo">
+        <h1>welldOne</h1>
+        <p>developer</p>
       </div>
-    </aside>
+
+      <ul>
+        <a href="">
+          <li>início</li>
+        </a>
+        <a href="#projects">
+          <li>projetos</li>
+        </a>
+        <a href="#contact_us">
+          <li>contato</li>
+        </a>
+      </ul>
+    </div>
 
   </header>
-
-  <div class="menu_spacing"> </div>
 
   <section id="home" class="section intro">
 
@@ -55,6 +49,8 @@
 
       <div class="intro_text_content">
         <h2>SEJA BEM-VINDX</h2>
+        <p>Salve, Salve!</p>
+        <br>
         <p> Meu nome é <strong>Weldo Carvalho</strong>. Sou <strong>Desenvolvedor Web</strong> e atualmente desenvolvo
           aplicações utilizando NODE, REACT,
           JAVASCRIPT, SQL, GIT, API REST e metodologia ÁGIL, além de outras tecnologias e ferramentas.</p>
@@ -69,43 +65,47 @@
       </div>
 
       <div class="intro_img">
-        <img src="/dist/new_undraw_portfolio.svg" alt="imagem para representar o portfolio">
+        <img src="/dist/grey_undraw_portfolio.svg" alt="imagem para representar o portfolio">
       </div>
     </div>
 
-
   </section>
 
-  <section id="projects" class="section third_bg">
+  <section id="projects" class="section projects">
 
-    <div class="main_wrapper grid_content">
+    <div class="main_wrapper projects_content">
+
       <h2>PROJETOS</h2>
 
-      <div class="grid">
+      <div class="projects_grid">
         <article>
           <a href="https://saberdigital.weldocarvalho.com" target="_blank">
             <h3>SABER DIGITAL</h3>
           </a>
           <a href="https://github.com/weldocarvalho/saberdigital" target="_blank">
-            <p>código fonte: github.com/weldocarvalho/saberdigital</p>
+            <p><strong>código fonte</strong>: github.com/weldocarvalho/saberdigital</p>
           </a>
           <br>
           <a href="https://saberdigital.weldocarvalho.com" target="_blank">
-            <p>saberdigital.weldocarvalho.com</p>
+            <p><strong>saberdigital.weldocarvalho.com</strong></p>
           </a>
           <br>
           <p>
             <a href="https://saberdigital.weldocarvalho.com" target="_blank">
-              SABER DIGITAL
+              <strong>SABER DIGITAL</strong>
             </a>
             foi, sem dúvida, uma das maiores conquistas pessoais. O projeto foi apresentado como trabalho
-            final no curso de DESENVOLVIMENTO WEB FULL STACK, ministrado pela DIGITAL HOUSE BRASIL. Foi a partir dele
-            que consegui enxergar, de maneira mais panorâmica, a visão de uma aplicação web.
+            final no curso de <strong>desenvolvimento web full stack</strong>, ministrado pela <strong>Digital House
+              Brasil</strong>.
           </p>
           <br>
-          <p>Tecnologias utilizadas: NodeJS, Express, MySQL, Sequelize, Bootstrap, EJS, Multer, ESLint e Webpack</p>
+          <p>Foi a partir dele que pude enxergar, de maneira mais panorâmica, a visão geral de uma aplicação web.
+          </p>
           <br>
-          <p>Equipe:
+          <p>Tecnologias utilizadas: <strong>NodeJS, Express, MySQL, Sequelize, Bootstrap, EJS, Multer, ESLint e
+              Webpack</strong></p>
+          <br>
+          <p><strong>Equipe</strong>:
             <a href="https://github.com/weldocarvalho" target="_blank">Weldo Carvalho,</a>
             <a href="https://github.com/defebach" target="_blank">André Felipe,</a>
             <a href="https://github.com/claudionono14" target="_blank">Cláudio Carvalho,</a>
@@ -116,50 +116,76 @@
         <article>
           <h3>POMODORO</h3>
           <a href="https://github.com/weldocarvalho/pomodoro_technique-typescript-react" target="_blank">
-            <p>código fonte: github.com/weldocarvalho/pomodoro_technique-typescript-react</p>
+            <p><strong>código fonte</strong>: github.com/weldocarvalho/pomodoro-technique</p>
           </a>
           <br>
-          <p>A técnica pomodoro é um método de gerenciamento de tempo. Na prática, é um timer programado para emitir um
+          <p>O <strong>maior desafio</strong> em relação a esse projeto foi o uso do <strong>typescript</strong>, um
+            <i>superset</i> criado para checar <u>tipos em javascript</u>. Inicialmente, o caminho foi marcado por
+            estranhezas,
+            mas logo foi possível perceber que a codificação fica muito mais robusta e previsível com seu uso.
+          </p>
+          <br>
+          <p>A <strong>técnica pomodoro</strong> é um método de gerenciamento de tempo. Na prática, é um timer
+            programado para emitir um
             alerta a cada 25min.</p>
           <br>
           <p>A ideia por trás da técnica é utilizar esse intervalo de tempo para focar na produção
             de uma tarefa específica, realizando uma pausa de 5min a cada término.</p>
           <br>
-          <p>Tecnologias utilizadas: Typescript, React</p>
+          <p>Tecnologias utilizadas: <strong>Typescript, React</strong></p>
         </article>
 
         <article>
           <h3>API REST</h3>
           <a href="https://github.com/weldocarvalho/api-rest_node-express-sequelize" target="_blank">
-            <p>código fonte: github.com/weldocarvalho/api-rest_node-express-sequelize</p>
+            <p><strong>código fonte</strong>: github.com/weldocarvalho/api-rest</p>
           </a>
           <br>
-          <p>A construção de uma API utilizando o estilo arquitetural REST com certeza é um dos projetos que não poderia
+          <p>A construção de uma <strong>API</strong> utilizando o <strong>estilo arquitetural REST</strong> com
+            certeza
+            é um dos projetos que não poderia
             faltar nesse portfólio. O estilo trouxe muito mais consistência quando o assunto é o consumo de serviços
             web.</p>
           <br>
-          <p>Tecnologias utilizadas: NodeJS, Express, MySQL, Sequelize, Sucrase</p>
+          <p>Tecnologias utilizadas: <strong>NodeJS, Express, MySQL, Sequelize, Sucrase</strong></p>
         </article>
 
         <article>
           <h3>CONSUMINDO API_wip</h3>
-          <p>...work in progress...</p>
+          <p><strong>...work in progress...</strong></p>
           <br>
-          <p>Após a construção da API REST, é chegado o momento de consumi-la utilizando a biblioteca REACT, com suporte
+          <p>Após a construção da API REST, é chegado o momento de consumi-la utilizando a biblioteca REACT, com
+            suporte
             do REDUX</p>
           <br>
-          <p>Tecnologias utilizadas: React e Redux</p>
+          <p>Tecnologias utilizadas: <strong>React e Redux</strong></p>
         </article>
 
         <article>
           <h3>LANDING PAGE</h3>
           <a href="https://github.com/weldocarvalho/welldOne_dev_landing_page" target="_blank">
-            <p>código fonte: github.com/weldocarvalho/welldOne_dev_landing_page</p>
+            <p><strong>código fonte</strong>: github.com/weldocarvalho/welldOne</p>
           </a>
           <br>
           <p>E o que seria desse portfólio sem a sua devida landing page, num é vero? </p>
           <br>
-          <p>Tecnologias utilizadas: HTML e CSS</p>
+          <p>Aqui o principal desafio foi aplicar os conceitos de <strong>responsividade</strong></p>
+          <br>
+          <p>Tecnologias utilizadas: <strong>HTML e CSS</strong></p>
+        </article>
+
+        <article>
+          <h3>...TO BE CONTINUED...</h3>
+          <p>Construir todos esses projetos tem sido um processo <strong>gratificante</strong>, às vezes
+            <strong>frustante rsrs</strong>, mas sempre <strong>enriquecedor</strong>. Todos eles, sem dúvida alguma,
+            receberão <strong>atualizações</strong> e <strong>melhorias</strong> ao longo do tempo.
+          </p>
+          <br>
+          <p>Próximos desafios:</p>
+          <p> - aplicação utilizando <strong>React HOOKS e Context API</strong></p>
+          <p> - aplicação que <strong>consuma API de terceiros</strong></p>
+          <br>
+          <p>Não deixe de acompanhar meu perfil no github: <strong>github.com/weldocarvalho</strong></p>
         </article>
       </div>
 
@@ -176,7 +202,8 @@
       </div>
 
       <div>
-        <p>Contato</p>
+        <p>CONTATO</p>
+        <br>
         <a href="https://www.linkedin.com/in/weldocarvalho/" target="_blank">
           <p>linkedin: linkedin.com/in/weldocarvalho</p>
         </a>
